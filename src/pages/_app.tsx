@@ -1,6 +1,5 @@
 import { AppProps } from 'next/app';
-
-import '../shared/styles/global.scss';
+import "tailwindcss/tailwind.css";
 
 const MyChat = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />;

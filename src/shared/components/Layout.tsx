@@ -11,14 +11,14 @@ const Layout = ({ children, title, description }: Props) => {
   return (
     <div>
       <Seo title={title} description={description} />
-      <header>
+      <header className="container mx-auto">
         <nav>
           Is header
         </nav>
         <hr/>
       </header>
       {children}
-      <footer>
+      <footer className="container mx-auto">
         <hr />
         <span>Is footer</span>
       </footer>

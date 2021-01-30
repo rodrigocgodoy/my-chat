@@ -13,6 +13,9 @@ const Seo = ({ title, description, image, shouldExcludeTitleSuffix = false, shou
 
       { !shouldIndexPage && <meta name="robots" content="noindex,nofollow" />}
 
+
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
       <meta name="MobileOptimized" content="320" />
       <meta name="HandheldFriendly" content="True" />
